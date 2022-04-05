@@ -84,6 +84,8 @@ body {
 .card_header_image {
   position: absolute;
   width: 100%;
+  transform: translate3d(0px, -8.06px, 0px) rotate(10deg);
+  transform-origin: 50% 50% 0px;
 }
 
 .card_logo_image {

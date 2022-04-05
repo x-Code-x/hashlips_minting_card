@@ -224,7 +224,7 @@ function Minter() {
     <div className="page">
       <div className="card">
         <div className="card_header colorGradient">
-          <img className="card_header_image ns" alt={"banner"} src={Hero} />
+          <img className="card_header_image ns" alt={"banner"} src={Hero} data-pm="normal" data-rotation="10" data-animv2="{"basic:{"in":{"type":"basic","name":"Upscale","keyFrames":[{"duration":2,"x":"1200","rotationZ":"-360","scaleX":0,"scaleY":0}]},"loop":{"type":"basic","name":"Slide","keyFrames":[{"duration":2,"ease":"linear","y":"-10"}]}}}" data-sstype="layer" />
         </div>
         {mintInfo.paused == 1 ? (
           <div className="card_body">

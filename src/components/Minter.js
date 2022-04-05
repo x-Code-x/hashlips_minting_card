@@ -3,7 +3,6 @@ import Web3 from "web3";
 import contract from "../contracts/contract.json";
 import Hero from "../assets/hero.png";
 import Logo from "../assets/logo.png";
-import Backgound from ../assets/spacetoon-bg.jpg";
 
 const initialInfoState = {
   connected: false,

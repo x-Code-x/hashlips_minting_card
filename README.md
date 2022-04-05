@@ -1,24 +1,4 @@
-# Welcome to HashLips 👄
-
-![](https://github.com/HashLips/hashlips_minting_card/blob/main/logo.png)
-
-All the code in these repos was created and explained by HashLips on the main YouTube channel.
-
-To find out more please visit:
-
-[📺 YouTube](https://www.youtube.com/channel/UC1LV4_VQGBJHTJjEWUmy8nA)
-
-[👄 Discord](https://discord.com/invite/qh6MWhMJDN)
-
-[💬 Telegram](https://t.me/hashlipsnft)
-
-[🐦 Twitter](https://twitter.com/hashlipsnft)
-
-[ℹ️ Website](https://hashlips.online/HashLips)
-
-# HashLips NFT minting dapp 🔥
-
-![](https://github.com/HashLips/hashlips_minting_card/blob/main/banner.png)
+# NFT minting dapp 🔥
 
 This repo provides a nice and easy way for linking an existing NFT smart contract to this minting dapp.
 
@@ -38,4 +18,4 @@ npm install
 
 ## Usage ℹ️
 
-This repo will be used in a youtube tutorial.
+

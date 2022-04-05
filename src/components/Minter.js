@@ -307,8 +307,7 @@ function Minter() {
               {mintInfo.supply}/{contract.total_supply}
             </p>
             <p className="statusText">
-              We've sold out!. You can still buy and trade the {contract.name}{" "}
-              on marketplaces such as Opensea.
+              We've sold out!. Wait for the next round!.
             </p>
           </div>
         )}

@@ -45,7 +45,6 @@ body {
 }
 
 .page {
-  background-image: url("../assets/spacetoon-bg.jpg");;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -54,6 +53,7 @@ body {
 }
 
 .card {
+  background-image: url("../assets/spacetoon-bg.jpg");
   background-color: var(--card);
   display: flex;
   flex-direction: column;

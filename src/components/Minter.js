@@ -183,7 +183,7 @@ function Minter() {
         ...prevState,
         loading: false,
         status:
-          "Nice! Your NFT will show up on Opensea, once the transaction is successful.",
+          "Nice!",
       }));
     } catch (err) {
       setMintInfo((prevState) => ({

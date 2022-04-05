@@ -1,12 +1,12 @@
 :root {
-  --button-bg: #ec780c;
-  --button-active-bg: #cc6505;
+  --button-bg: #000000b3;
+  --button-active-bg: ##fafafa80;
   --small-button-bg: #919191;
   --small-button-active-bg: #646464;
   --button-text: #ffffff;
   --card: #ffffff;
   --accountText: #ffffff;
-  --statusText: #5e2d00;
+  --statusText: #04FF00;
   --bg-gradient_1: rgb(20, 20, 31);
   --bg-gradient_2: rgb(75, 80, 230);
   --gradient_1: rgb(75, 80, 230);

@@ -8,7 +8,7 @@
   "address": "0x1483c67d318951ea7ffdc01c4aba798288e7835c",
   "gas_limit": 120000,
   "gas_multiplier": 120000,
-  "scan": "https://etherscan.io/token/0x1483c67d318951ea7ffdc01c4aba798288e7835c",
+  "scan": "https://testnet.bscscan.com/address/0x8cb504069ec1dbecdc940b43703307ceff13f8d6",
   "abi": [
     {
       "inputs": [

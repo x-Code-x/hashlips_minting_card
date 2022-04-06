@@ -18,7 +18,7 @@ const initialMintState = {
   loading: false,
   status: `Mint your ${contract.name} NFT`,
   amount: 1,
-  supply: "1000",
+  supply: "0",
   cost: "1",
   paused: 0,
 };

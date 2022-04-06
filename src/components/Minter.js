@@ -167,7 +167,9 @@ function Minter() {
       value: String(
         info.web3.utils.toHex(Number(mintInfo.cost) * mintInfo.amount)
       ),
-      data: info.contract.methods.mint(mintInfo.amount).encodeABI(),
+      data: info.contract.methods
+        .mint(info.account, mintInfo.amount)
+        .encodeABI(),
     };
     try {
       setMintInfo((prevState) => ({

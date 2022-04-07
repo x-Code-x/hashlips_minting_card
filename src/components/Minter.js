@@ -4,6 +4,7 @@ import { ethers } from "ethers";
 import contract from "../contracts/contract.json";
 import Hero from "../assets/hero.png";
 import Logo from "../assets/logo.png";
+import Reveal from "./Reveal.js";
 
 const initialInfoState = {
   connected: false,
@@ -334,6 +335,8 @@ function Minter() {
       </div>
       <img className="card_logo_image ns" alt={"banner"} src={Logo} />
     </div>
+    <>
+    <Reveal />
   );
 }
 

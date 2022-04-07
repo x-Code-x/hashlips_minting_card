@@ -21,7 +21,7 @@ const initialMintState = {
   amount: 1,
   supply: "0",
   cost: "0.25",
-  paused: 0,
+  paused: 1,
 };
 
 function Minter() {

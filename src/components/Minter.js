@@ -280,8 +280,9 @@ function Minter() {
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <p style={{ color: "var(--statusText)", textAlign: "center" }}>
                   {Number(
-                    info.web3?.utils.fromWei(mintInfo.cost, "ether") *
-                      mintInfo.amount
+                    const val = 0.25
+                    var weiAmount = ethers.utils.parseEther("0.25");
+                      info.web3?.utils.fromWei(weiAmount, "ether") * mintInfo.amount
                   ).toFixed(3)}{" "}
                   {contract.chain_symbol}
                 </p>

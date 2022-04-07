@@ -156,6 +156,8 @@ function Minter() {
   };
 
   const mint = async () => {
+    const val = 0.25
+    var weiAmount = web3.toWei(val);
     const params = {
       to: info.contractJSON.address,
       from: info.account,
@@ -165,7 +167,7 @@ function Minter() {
         )
       ),
       value: String(
-        info.web3.utils.toHex(Number(info.web3.utils.toWei(mintInfo.cost)) * mintInfo.amount)
+        info.web3.utils.toHex(Number(weiAmount) * mintInfo.amount)
       ),
       data: info.contract.methods
         .mint(info.account, mintInfo.amount)

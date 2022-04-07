@@ -5,10 +5,10 @@
   "chain_symbol": "BNB",
   "chain": "BSC Testnet",
   "chain_id": 97,
-  "address": "0x11a16C7B760afC56eA021D032ca3c972C7A19FC6",
+  "address": "0xe63a44F08019Cf6C945de3671721b3BfD0B75ece",
   "gas_limit": 120000,
   "gas_multiplier": 120000,
-  "scan": "https://testnet.bscscan.com/address/0x11a16C7B760afC56eA021D032ca3c972C7A19FC6",
+  "scan": "https://testnet.bscscan.com/address/0xe63a44F08019Cf6C945de3671721b3BfD0B75ece",
   "abi": [
 	{
 		"anonymous": false,

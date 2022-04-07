@@ -12,7 +12,6 @@ export default class animatedbasic extends Component {
     this.value = 0;
     this.animatedValue.addListener(({ value }) => {
       this.value = value;
-      
     })
     this.frontInterpolate = this.animatedValue.interpolate({
       inputRange: [0, 180],
@@ -27,20 +26,18 @@ export default class animatedbasic extends Component {
   flipCard() {
     if (this.value > 90) {
       Animated.spring(this.animatedValue,{
-       toValue: 0,
-       friction: 8,
-       tension: 10
-    }).start();
+        toValue: 0,
+        friction: 8,
+        tension: 10
+      }).start();
     } else {
       Animated.spring(this.animatedValue,{
-       toValue: 180,
-       friction: 8,
-       tension: 10
-    }).start();
+        toValue: 180,
+        friction: 8,
+        tension: 10
+      }).start();
     }
   }
-    
-  };
   
   render() {
     const frontAnimatedStyle = {
@@ -53,23 +50,24 @@ export default class animatedbasic extends Component {
         { rotateX: this.backInterpolate }
       ]
     }  
-  return (
-    <View style={styles.container}>
-      <View>
-        <Animated.View style=[[styles.flipCard, frontAnimatedStyle]
-          <Text style={styles.flipText}>
-            This text is flipping on the front.
-          </Text>
-        </Animated.Veiw>
-        <Animated.View style=[[styles.flipCard, styles.flipCardBack, backAnimatedStyle]
-          <Text style={styles.flipText}>
-            This text is flipping on the back.
-          </Text>
-        </Animated.Veiw>
+    return (
+      <View style={styles.container}>
+        <View>
+          <Animated.View style=[[styles.flipCard, frontAnimatedStyle]
+            <Text style={styles.flipText}>
+              This text is flipping on the front.
+            </Text>
+          </Animated.Veiw>
+          <Animated.View style=[[styles.flipCard, styles.flipCardBack, backAnimatedStyle]
+            <Text style={styles.flipText}>
+              This text is flipping on the back.
+            </Text>
+          </Animated.Veiw>
+        </View>
+        <TouchableOpacity onPress={() => this.flipCard()}>
+          <Text>Flip!</Text>
+        </TouchableOpacity>
       </View>
-      <TouchableOpacity onPress={() => this.flipCard()}>
-        <Text>Flip!</Text>
-      </TouchableOpacity>
-    </View>
-
+    )
+    
 export default Reveal;

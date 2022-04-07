@@ -279,9 +279,7 @@ function Minter() {
             {info.connected ? (
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <p style={{ color: "var(--statusText)", textAlign: "center" }}>
-                  {Number(
-                      info.web3?.utils.fromWei(ethers.utils.parseEther("0.25"), "ether") * mintInfo.amount
-                  ).toFixed(3)}{" "}
+                  {Number((0.25) * mintInfo.amount).toFixed(3)}{" "}
                   {contract.chain_symbol}
                 </p>
                 <div style={{ width: 20 }}></div>

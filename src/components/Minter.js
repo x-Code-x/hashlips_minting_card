@@ -19,7 +19,7 @@ const initialMintState = {
   status: `Mint your ${contract.name} NFT`,
   amount: 1,
   supply: "0",
-  cost: "250000000 gwei",
+  cost: "0.25",
   paused: 0,
 };
 
@@ -165,7 +165,7 @@ function Minter() {
         )
       ),
       value: String(
-        info.web3.utils.toHex(Number(mintInfo.cost) * mintInfo.amount)
+        info.web3.utils.toHex(Number(web3.toWei(mintInfo.cost)) * mintInfo.amount)
       ),
       data: info.contract.methods
         .mint(info.account, mintInfo.amount)

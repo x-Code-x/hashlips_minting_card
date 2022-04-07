@@ -103,7 +103,7 @@ function Minter() {
     } catch (err) {
       setMintInfo((prevState) => ({
         ...prevState,
-        supply: 0,
+        supply: 1000,
       }));
     }
   };

@@ -40,7 +40,7 @@ export default class animatedbasic extends Component {
     }
   }
     
-  }
+  };
   
   render() {
     const frontAnimatedStyle = {

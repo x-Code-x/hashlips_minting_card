@@ -3,12 +3,12 @@
   "symbol": "MRT",
   "total_supply": 1000,
   "chain_symbol": "BNB",
-  "chain": "BSC Testnet",
-  "chain_id": 97,
-  "address": "0xe63a44F08019Cf6C945de3671721b3BfD0B75ece",
+  "chain": "Binance Smart Chain",
+  "chain_id": 56,
+  "address": "0x6e5BC26aA113EF2dD37Bd749dbc1802610C99Ae5",
   "gas_limit": 120000,
   "gas_multiplier": 120000,
-  "scan": "https://testnet.bscscan.com/address/0xe63a44F08019Cf6C945de3671721b3BfD0B75ece",
+  "scan": "https://testnet.bscscan.com/address/0x6e5BC26aA113EF2dD37Bd749dbc1802610C99Ae5",
   "abi": [
 	{
 		"anonymous": false,
@@ -366,26 +366,6 @@
 	{
 		"inputs": [
 			{
-				"internalType": "address",
-				"name": "_user",
-				"type": "address"
-			}
-		],
-		"name": "whitelistUser",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "withdraw",
-		"outputs": [],
-		"stateMutability": "payable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
 				"internalType": "string",
 				"name": "_name",
 				"type": "string"
@@ -408,6 +388,26 @@
 		],
 		"stateMutability": "nonpayable",
 		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_user",
+				"type": "address"
+			}
+		],
+		"name": "whitelistUser",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "withdraw",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
 	},
 	{
 		"inputs": [

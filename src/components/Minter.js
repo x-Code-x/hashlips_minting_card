@@ -251,13 +251,6 @@ function Minter() {
                 alignItems: "center",
               }}
             >
-              <button
-                disabled={!info.connected || mintInfo.cost == "0"}
-                className="small_button"
-                onClick={() => updateAmount(mintInfo.amount - 1)}
-              >
-                -
-              </button>
               <div style={{ width: 10 }}></div>
               <button
                 disabled={!info.connected || mintInfo.cost == "0"}
@@ -267,13 +260,6 @@ function Minter() {
                 Mint {mintInfo.amount}
               </button>
               <div style={{ width: 10 }}></div>
-              <button
-                disabled={!info.connected || mintInfo.cost == "0"}
-                className="small_button"
-                onClick={() => updateAmount(mintInfo.amount + 1)}
-              >
-                +
-              </button>
             </div>
 
             {info.connected ? (

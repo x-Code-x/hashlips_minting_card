@@ -279,7 +279,7 @@ function Minter() {
             {info.connected ? (
               <div style={{ display: "flex", justifyContent: "space-between" }}>
                 <p style={{ color: "var(--statusText)", textAlign: "center" }}>
-                  {Number((0.25) * mintInfo.amount).toFixed(3)}{" "}
+                  {Number((0.25) * mintInfo.amount).toFixed(2)}{" "}
                   {contract.chain_symbol}
                 </p>
                 <div style={{ width: 20 }}></div>

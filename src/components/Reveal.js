@@ -53,12 +53,12 @@ export default class animatedbasic extends Component {
     return (
       <View style={styles.container}>
         <View>
-          <Animated.View style=[styles.flipCard, frontAnimatedStyle]
+          <Animated.View style={[styles.flipCard, frontAnimatedStyle]}
             <Text style={styles.flipText}>
               This text is flipping on the front.
             </Text>
           </Animated.Veiw>
-          <Animated.View style=[styles.flipCard, styles.flipCardBack, backAnimatedStyle]
+          <Animated.View style={[styles.flipCard, styles.flipCardBack, backAnimatedStyle]}
             <Text style={styles.flipText}>
               This text is flipping on the back.
             </Text>

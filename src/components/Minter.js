@@ -26,7 +26,7 @@ const initialMintState = {
 
 function Minter() {
   const [info, setInfo] = useState(initialInfoState);
-  const [mintInfo, setMintInfo] = useState(initialMintState);
+  const [mintInfo, setMintInfo] = useState(initialInfoState);
 
   console.log(info);
 

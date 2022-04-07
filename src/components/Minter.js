@@ -18,7 +18,7 @@ const initialInfoState = {
 const initialMintState = {
   loading: false,
   status: `Mint your ${contract.name} NFT`,
-  amount: 1,
+  amount: 0,
   supply: "1000",
   cost: "0.25",
   paused: 1,
@@ -231,7 +231,7 @@ function Minter() {
         <div className="card_header colorGradient">
           <img className="card_header_image ns" alt={"banner"} src={Hero} />
         </div>
-        {mintInfo.paused == 1 ? (
+        {mintInfo.paused == 1 || mintInfo.paused == 0 ? (
           <div className="card_body">
             {!info.connected ? (
               <p className="statusText">{info.status}</p>

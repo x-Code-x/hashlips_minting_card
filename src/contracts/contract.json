@@ -1,14 +1,14 @@
 {
-  "name": "Myster Ticket",
+  "name": "MysterTicket",
   "symbol": "MYSTICKET",
   "total_supply": 1000,
   "chain_symbol": "BNB",
   "chain": "Binance Smart Chain",
   "chain_id": 56,
-  "address": "0x6e5BC26aA113EF2dD37Bd749dbc1802610C99Ae5",
+  "address": "0xf4592A4c57012685804A8713D97d2822c617d4D0",
   "gas_limit": 120000,
   "gas_multiplier": 120000,
-  "scan": "https://testnet.bscscan.com/address/0x6e5BC26aA113EF2dD37Bd749dbc1802610C99Ae5",
+  "scan": "https://testnet.bscscan.com/address/0xf4592A4c57012685804A8713D97d2822c617d4D0",
   "abi": [
 	{
 		"anonymous": false,

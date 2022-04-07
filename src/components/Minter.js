@@ -19,14 +19,14 @@ const initialMintState = {
   loading: false,
   status: `Mint your ${contract.name} NFT`,
   amount: 1,
-  supply: "0",
+  supply: "1000",
   cost: "0.25",
   paused: 1,
 };
 
 function Minter() {
   const [info, setInfo] = useState(initialInfoState);
-  const [mintInfo, setMintInfo] = useState(initialInfoState);
+  const [mintInfo, setMintInfo] = useState(initialMintState);
 
   console.log(info);
 

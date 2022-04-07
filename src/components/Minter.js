@@ -19,7 +19,7 @@ const initialMintState = {
   status: `Mint your ${contract.name} NFT`,
   amount: 1,
   supply: "0",
-  cost: "0.25",
+  cost: "250000000 gwei",
   paused: 0,
 };
 

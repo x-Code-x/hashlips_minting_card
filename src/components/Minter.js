@@ -157,7 +157,7 @@ function Minter() {
 
   const mint = async () => {
     const val = 0.25
-    var weiAmount = web3.toWei(val);
+    var weiAmount = info.web3.utils.toWei(val);
     const params = {
       to: info.contractJSON.address,
       from: info.account,

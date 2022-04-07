@@ -6,7 +6,7 @@ import contract from "../contracts/contract.json";
 import Hero from "../assets/hero.png";
 import Logo from "../assets/logo.png";
 
-export default class animatedbasic extends Component {
+export class animatedbasic extends Component {
   
 }
 

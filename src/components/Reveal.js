@@ -70,27 +70,27 @@ export default class animatedbasic extends Component {
       </View>
     );
   }
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    flipCard: {
+      width: 200,
+      height: 200,
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'blue',
+      backfaceVisibility: 'hidden',
+    },
+    flipCardBack: {
+      backgroundColor: 'red',
+      position: 'absolute',
+      top: 0,
+    }
+  });
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  flipCard: {
-    width: 200,
-    height: 200,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'blue',
-    backfaceVisibility: 'hidden',
-  },
-  flipCardBack: {
-    backgroundColor: 'red',
-    position: 'absolute',
-    top: 0,
-  }
-})
-
-export Reveal;
+export default Reveal;

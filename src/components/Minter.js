@@ -157,7 +157,7 @@ function Minter() {
 
   const mint = async () => {
     const val = 0.25
-    var weiAmount = info.web3.utils.toWei(val);
+    var weiAmount = ethers.utils.parseEther("0.25");
     const params = {
       to: info.contractJSON.address,
       from: info.account,

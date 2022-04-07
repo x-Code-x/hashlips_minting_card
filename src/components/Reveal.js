@@ -69,5 +69,6 @@ export default class animatedbasic extends Component {
         </TouchableOpacity>
       </View>
     )
+  }
     
 export default Reveal;

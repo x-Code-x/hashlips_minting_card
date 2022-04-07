@@ -335,7 +335,7 @@ function Minter() {
       </div>
       <img className="card_logo_image ns" alt={"banner"} src={Logo} />
     </div>
-    <>
+    
     <Reveal />
   );
 }

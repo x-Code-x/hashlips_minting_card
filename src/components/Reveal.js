@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   },
   flipCardBack: {
     backgroundColor: 'red',
-    position: 'absolute';
+    position: 'absolute',
     top: 0,
   }
 })

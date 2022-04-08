@@ -332,8 +332,8 @@ function Minter() {
         </a>
       </div>
       <img className="card_logo_image ns" alt={"banner"} src={Logo} />
-    </div>
-    <LaunchBtn />   
+      <LaunchBtn />
+    </div>   
   );
 }
 

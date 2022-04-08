@@ -136,6 +136,11 @@ body {
   font-weight: bold;
 }
 
+.contractText {
+  color: var(--contractText);
+  font-weight: bold;
+}
+
 .ns {
   -webkit-user-select: none;
   -khtml-user-select: none;

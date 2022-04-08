@@ -3,14 +3,15 @@ import ReactDOM from "react-dom";
 import "antd/dist/antd.css";
 import { Button, Card } from "antd";
 
+import "./styles/styles.css";
+
 import Minter from "./components/Minter";
 import Reveal from "./components/Reveal";
-import "./styles/styles.css";
+import Image from "./components/Image";
 
 ReactDOM.render(
   <React.StrictMode>
     <Minter />
-    <div id="portal"></div>
   </React.StrictMode>,
   document.getElementById("root")
 );

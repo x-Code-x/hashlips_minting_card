@@ -41,6 +41,8 @@ body {
       var(--bg-gradient_2) 100%
     )
     fixed;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 .colorGradient {

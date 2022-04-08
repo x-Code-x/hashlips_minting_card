@@ -19,10 +19,10 @@ const initialInfoState = {
 const initialMintState = {
   loading: false,
   status: `Mint your ${contract.name} NFT`,
-  amount: 0,
-  supply: "1000",
+  amount: 1,
+  supply: "0",
   cost: "0.25",
-  paused: 1,
+  paused: 0,
 };
 
 function Minter() {

@@ -31,7 +31,7 @@ const LaunchBtn = props => {
       </div>
       {showSnack &&
         createPortal(
-          <SnackBar dismiss={dismissFn} />,
+          <Reveal dismiss={dismissFn} />,
           document.getElementById("supersnackbarcontainer")
         )}
     </div>

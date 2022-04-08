@@ -9,13 +9,13 @@ import "../styles/styles.css";
 //    </div>
 //  );
 //}
-const SnackBar = ({ message = "Hello world!", dismiss }) => (
-  <div className="snackbar__container">
-    <span className="snackbar__message">{message}</span>
-    <span className="snackbar__dismiss" icon="fa-close" onClick={dismiss}>
+const TicketBar = ({ message = "Hello world!", dismiss }) => (
+  <div className="ticketbar__container">
+    <span className="ticketbar__message">{message}</span>
+    <span className="ticketbar__dismiss" icon="fa-close" onClick={dismiss}>
       x
     </span>
   </div>
 );
 
-export default SnackBar;
+export default TicketBar;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { createPortal } from "react-dom";
-import SnackBar from "./snackbar";
+import Reveal from "./Reveal";
 
 const LaunchBtn = props => {
   const [showSnack, setShowSnack] = useState(false);

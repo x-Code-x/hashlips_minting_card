@@ -4,7 +4,7 @@ import "../styles/styles.css";
 export default function Reveal() {
   return (
     <div className="Reveal">
-      <h1>Reveal</h1>
+      <h1>Reveal Your Ticket!</h1>
       <div className="coin"></div>
     </div>
   );

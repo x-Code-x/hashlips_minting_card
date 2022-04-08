@@ -8,7 +8,7 @@
   "address": "0xf4592A4c57012685804A8713D97d2822c617d4D0",
   "gas_limit": 120000,
   "gas_multiplier": 120000,
-  "scan": "https://testnet.bscscan.com/address/0xf4592A4c57012685804A8713D97d2822c617d4D0",
+  "scan": "https://bscscan.com/address/0xf4592A4c57012685804A8713D97d2822c617d4D0",
   "abi": [
 	{
 		"anonymous": false,

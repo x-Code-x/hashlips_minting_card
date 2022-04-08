@@ -11,7 +11,7 @@ const LaunchBtn = props => {
 
   return (
     <div className="launcher__container">
-      <span className="launcher__message">Click to trigger a message!</span>
+      <span className="launcher__message">Reveal!</span>
       <button
         className="launcher__button"
         onClick={() => {

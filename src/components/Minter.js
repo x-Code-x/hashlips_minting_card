@@ -323,7 +323,7 @@ function Minter() {
           style={{
             position: "absolute",
             bottom: 55,
-            left: -65,
+            left: -95,
           }}
           className="_90 contractText"
           target="_blank"

@@ -7,7 +7,7 @@ import "./styles/styles.css";
 ReactDOM.render(
   <React.StrictMode>
     <Minter />
-    <Reveal />
+    <div id="portal"></div>
   </React.StrictMode>,
   document.getElementById("root")
 );

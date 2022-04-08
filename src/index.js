@@ -6,6 +6,7 @@ import { Button, Card } from "antd";
 import "./styles/styles.css";
 
 import Minter from "./components/Minter";
+import TooltipPopover from "./components/TooltipPopover";
 import Reveal from "./components/Reveal";
 import Image from "./components/Image";
 

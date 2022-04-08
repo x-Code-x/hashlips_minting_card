@@ -10,4 +10,4 @@ export default function Reveal() {
   );
 }
 
-export default Reveal;
+//export default Reveal;

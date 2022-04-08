@@ -5,7 +5,7 @@ export default function Reveal() {
   return (
     <div className="Reveal">
       <h1>Reveal Your Ticket!</h1>
-      <div className="coin"></div>
+      <div className="ticket"></div>
     </div>
   );
 }

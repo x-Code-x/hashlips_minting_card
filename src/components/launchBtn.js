@@ -26,8 +26,8 @@ const LaunchBtn = props => {
         Click me!
       </button>
       <div className="launcher__fixed-selector">
-        <input id="fixedticket" type="checkbox" onChange={toggleFixedTicket} />
-        <label htmlFor="fixedticket">Fixed</label>
+        <input id="fixedticketbar" type="checkbox" onChange={toggleFixedTicket} />
+        <label htmlFor="fixedticketbar">Fixed</label>
       </div>
       {showTicket &&
         createPortal(

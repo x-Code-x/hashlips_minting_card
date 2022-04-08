@@ -32,7 +32,7 @@ const LaunchBtn = props => {
       {showTicket &&
         createPortal(
           <Reveal dismiss={dismissFn} />,
-          document.getElementById("superticketcontainer")
+          document.getElementById("revealarea")
         )}
     </div>
   );

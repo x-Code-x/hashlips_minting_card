@@ -3,7 +3,7 @@ import posed from 'react-pose';
 import ReactDOM from 'react-dom';
 import { Portal } from 'react-portal';
 
-import './styles.css';
+import '../styles/styles.css';
 import { Transition } from './Transition';
 
 const MODAL_NODE = document.getElementById('modal-root');

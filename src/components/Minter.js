@@ -323,7 +323,7 @@ function Minter() {
           style={{
             position: "absolute",
             bottom: 55,
-            left: -75,
+            left: -65,
           }}
           className="_90 accountText"
           target="_blank"

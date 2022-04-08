@@ -3,11 +3,11 @@ import { createPortal } from "react-dom";
 import Reveal from "./Reveal";
 
 const LaunchBtn = props => {
-  const [showSnack, setShowSnack] = useState(false);
-  const [fixedSnack, setFixedSnack] = useState(false);
+  const [showTicket, setShowTicket] = useState(false);
+  const [fixedTicket, setFixedTicket] = useState(false);
 
-  const dismissFn = () => setShowSnack(false);
-  const toggleFixedSnack = () => setFixedSnack(!fixedSnack);
+  const dismissFn = () => setShowTicket(false);
+  const toggleFixedTicket = () => setFixedTicket(!fixedTicket);
 
   return (
     <div className="launcher__container">
@@ -15,10 +15,10 @@ const LaunchBtn = props => {
       <button
         className="launcher__button"
         onClick={() => {
-          setShowSnack(true);
-          if (!fixedSnack) {
+          setShowTicket(true);
+          if (!fixedTicket) {
             setTimeout(() => {
-              setShowSnack(false);
+              setShowTicket(false);
             }, 2500);
           }
         }}
@@ -26,13 +26,13 @@ const LaunchBtn = props => {
         Click me!
       </button>
       <div className="launcher__fixed-selector">
-        <input id="fixedsnackbar" type="checkbox" onChange={toggleFixedSnack} />
-        <label htmlFor="fixedsnackbar">Fixed</label>
+        <input id="fixedticket" type="checkbox" onChange={toggleFixedTicket} />
+        <label htmlFor="fixedticket">Fixed</label>
       </div>
-      {showSnack &&
+      {showTicket &&
         createPortal(
           <Reveal dismiss={dismissFn} />,
-          document.getElementById("supersnackbarcontainer")
+          document.getElementById("superticketcontainer")
         )}
     </div>
   );

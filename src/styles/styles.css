@@ -20,8 +20,8 @@
   --lowlight: #111;
   --side: #666;
   --side-dark: #120e08;
-  --ticket-height: 40rem;
-  --ticket-width: 75rem;
+  --ticket-height: 20rem;
+  --ticket-width: 60rem;
   /* ***  change address here:**** */
   --ticket-face: url("https://gateway.pinata.cloud/ipfs/QmeZksEGADrQTerGB83oFUqtfYVAMJ71JS43a5fNLPq1ax/000000000000000000000000000000000000000000000000000000000bronze2.png");
 }

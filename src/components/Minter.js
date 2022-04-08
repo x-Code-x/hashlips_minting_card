@@ -39,7 +39,7 @@ function Minter() {
         const networkId = await window.ethereum.request({
           method: "net_version",
         });
-        if (networkId == _contractJSON.chain_id) {
+        if (networkId === _contractJSON.chain_id) {
           let web3 = new Web3(window.ethereum);
           setInfo((prevState) => ({
             ...prevState,
@@ -157,7 +157,6 @@ function Minter() {
   };
 
   const mint = async () => {
-    const val = 0.25
     var weiAmount = ethers.utils.parseEther("0.25");
     const params = {
       to: info.contractJSON.address,
@@ -231,7 +230,7 @@ function Minter() {
         <div className="card_header colorGradient">
           <img className="card_header_image ns" alt={"banner"} src={Hero} />
         </div>
-        {mintInfo.paused == 1 || mintInfo.paused == 0 ? (
+        {mintInfo.paused === 1 || mintInfo.paused === 0 ? (
           <div className="card_body">
             {!info.connected ? (
               <p className="statusText">{info.status}</p>
@@ -253,7 +252,7 @@ function Minter() {
             >
               <div style={{ width: 10 }}></div>
               <button
-                disabled={!info.connected || mintInfo.cost == "0"}
+                disabled={!info.connected || mintInfo.cost === "0"}
                 className="button"
                 onClick={() => mint()}
               >

@@ -322,8 +322,8 @@ function Minter() {
         <a
           style={{
             position: "absolute",
-            bottom: 65,
-            left: -95,
+            bottom: 85,
+            left: -90,
           }}
           className="_90 contractText"
           target="_blank"

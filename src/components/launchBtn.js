@@ -4,31 +4,22 @@ import Reveal from "./Reveal";
 
 const LaunchBtn = props => {
   const [showTicket, setShowTicket] = useState(false);
-  const [fixedTicket, setFixedTicket] = useState(false);
 
   const dismissFn = () => setShowTicket(false);
-  const toggleFixedTicket = () => setFixedTicket(!fixedTicket);
-
+  
   return (
     <div className="launcher__container">
-      <span className="launcher__message">Reveal!</span>
       <button
         className="launcher__button"
         onClick={() => {
           setShowTicket(true);
-          if (!fixedTicket) {
-            setTimeout(() => {
-              setShowTicket(false);
-            }, 2500);
-          }
+          setTimeout(() => {
+            setShowTicket(false);
+          }, 2500);
         }}
       >
-        Click me!
+        Reveal!
       </button>
-      <div className="launcher__fixed-selector">
-        <input id="fixedticketbar" type="checkbox" onChange={toggleFixedTicket} />
-        <label htmlFor="fixedticketbar">Fixed</label>
-      </div>
       {showTicket &&
         createPortal(
           <Reveal dismiss={dismissFn} />,

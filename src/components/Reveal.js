@@ -2,12 +2,16 @@ import React, { Component } from "react";
 import ReactDOM, { createPortal } from "react-dom";
 
 
-function Reveal() {
-  // Creating a portal
-  return ReactDOM.createPortal(
-    <h1>Reveal Portal</h1>,
-    document.getElementById('portal')
- )
-}
-  
-export default Reveal;
+const Portal = ({children}) => {
+  const mount = document.getElementById("portal");
+  const el = document.createElement("div");
+
+  useEffect(() => {
+    mount.appendChild(el);
+    return () => mount.removeChild(el);
+  }, [el, mount]);
+
+  return createPortal(children, el)
+};
+
+export default Portal;

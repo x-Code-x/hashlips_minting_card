@@ -325,7 +325,7 @@ function Minter() {
             bottom: 55,
             left: -75,
           }}
-          className="_90"
+          className="_90 accountText"
           target="_blank"
           href={contract.scan}
         >

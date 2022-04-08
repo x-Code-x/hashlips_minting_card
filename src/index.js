@@ -13,8 +13,4 @@ ReactDOM.render(
     <Minter />
   </React.StrictMode>,
   document.getElementById("root")
-<React.StrictMode>
-    <Reveal />
-  </React.StrictMode>,
-  document.getElementById("portal")
 );

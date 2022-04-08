@@ -4,7 +4,7 @@ import { ethers } from "ethers";
 import contract from "../contracts/contract.json";
 import Hero from "../assets/hero.png";
 import Logo from "../assets/logo.png";
-import LaunchBtn from "./components/launchBtn";
+import LaunchBtn from "./launchBtn";
 
 const initialInfoState = {
   connected: false,

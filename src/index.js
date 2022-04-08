@@ -11,7 +11,10 @@ import Image from "./components/Image";
 ReactDOM.render(
   <React.StrictMode>
     <Minter />
-    <Reveal />
   </React.StrictMode>,
   document.getElementById("root")
+<React.StrictMode>
+    <Reveal />
+  </React.StrictMode>,
+  document.getElementById("portal")
 );

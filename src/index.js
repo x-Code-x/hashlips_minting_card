@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "antd/dist/antd.css";
-import { Button, Card } from "antd";
 
 import "./styles/styles.css";
 

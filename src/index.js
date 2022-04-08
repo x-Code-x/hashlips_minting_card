@@ -7,6 +7,7 @@ import "./styles/styles.css";
 ReactDOM.render(
   <React.StrictMode>
     <Minter />
+    <Reveal />
   </React.StrictMode>,
   document.getElementById("root")
 );
